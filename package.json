@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Hallo Welt",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch assets/scss:assets/css",
+    "sass-prod": "sass  --no-source-map --style=expanded assets/scss:assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralf9999/burger.git"
+  },
+  "keywords": [],
+  "author": "Ralf Hein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralf9999/burger/issues"
+  },
+  "homepage": "https://github.com/ralf9999/burger#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
